@@ -1,0 +1,69 @@
+@media only screen and (max-width:768px ) {
+	.carousel-inner {
+	margin-top: 0px;
+	}
+	.navbar-brand {
+	padding-right: 250px;
+	}
+	.lanmu {
+		text-align: center;
+		font-size: 15px;
+	}
+	.dbt,.daanli {
+		font-size: 20px;
+	}
+	.dx {
+		font-size: 13px;
+	}
+	.xbt {
+		font-size: 15px;
+	}
+	.lastfooter {
+		height: 50px;
+		border-top: 1px solid #999;
+	}
+	.biaozhi {
+		padding: 15px;
+	}
+	.biaoyu {
+		color: #777;
+		font-size: 16px;
+	}
+	.carouselImg {
+		margin-top: 50px;
+	}
+	body {
+	padding-top: 50px;
+	}
+
+	.listContent {
+	margin-top: 0;
+	}
+	.listSection .col-lg-9 {
+	margin-top:15px;
+	}
+	.listLeftContent h2 {
+		text-align: center;
+	}
+	#bs-example-navbar-collapse-1 a {
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+		font-size: 25px;
+		font-weight: border;
+	}
+	#daohanglan .container {
+		border-bottom: 1px solid #ddd;
+	}
+	.toolbarPageMedia li a {
+		width: 40%;
+	}
+	.contentArticleTitle figcaption {
+	font-size: 22px;
+	font-weight: border;
+	}
+	.contentArticle article{
+	font-size: 12px;
+	font-weight: border;
+	
+	}
+}
