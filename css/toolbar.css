@@ -131,8 +131,114 @@
   transform: scale(0.6); 
 }
 
+.wz .dbt {
+  opacity: 0;
+  animation: fadeInRight 1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
 
+@keyframes fadeInRight
+{
+    0%   {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        transform: translateX(-50px);
+    }   
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+ 
+@-webkit-keyframes fadeInRight /* Safari 与 Chrome */
+{
+    0%   {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
 
+.wz .xbt {
+  opacity: 0;
+  animation: fadeInLeft 2s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInLeft
+{
+    0%   {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+        -ms-transform: translateX(50px);
+        transform: translateX(50px);
+    }   
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+ 
+@-webkit-keyframes fadeInLeft /* Safari 与 Chrome */
+{
+    0%   {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+        -ms-transform: translateX(50px);
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+.wz .dx {
+  opacity: 0;
+  animation: fadeIn 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn
+{
+    0%   {
+        opacity: 0;
+       
+    }   
+    100% {
+        opacity: 1;
+       
+    }
+}
+ 
+@-webkit-keyframes fadeIn /* Safari 与 Chrome */
+{
+    0%   {
+        opacity: 0;
+      
+    }
+    100% {
+        opacity: 1;
+      
+    }
+}
 
 
 
